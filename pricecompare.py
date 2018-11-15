@@ -40,5 +40,5 @@ def overall_comp(gsc, pgs, dsc, weight):
   elif (dsc(weight)) < pgs and (dsc(weight)) < (gsc(weight)):
      print("Drone Shipping is Cheapest...it would cost")
      print(dsc(weight))
-price_compare =  (overall_comp(gsc, pgs, dsc)) 
+price_compare =  (overall_comp(gsc, pgs, dsc, weight)) 
 print(price_compare) 
